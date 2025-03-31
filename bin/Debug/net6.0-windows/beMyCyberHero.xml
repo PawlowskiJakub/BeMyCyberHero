@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>beMyCyberHero</name>
+    </assembly>
+    <members>
+        <member name="F:beMyCyberHero.Game1.isTextInputActive">
+            <summary>
+            Przechowywane wprowadzone hasło
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.textFieldBounds">
+            <summary>
+            Czy pole tekstowe jest aktywne
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.validationMessage">
+            <summary>
+            Obszar pola tekstowego
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.tasks">
+            <summary>
+            Domyślny poziom trudności
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.buttonTexture">
+            <summary>
+            Elementy UI i tła
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.menuButtonTexture">
+            <summary>
+            Elementy UI i tła
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.correctEmailIndex">
+            <summary>
+            Lista e-maili do wyświetlenia
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.emailRectangles">
+            <summary>
+            Indeks fałszywego e-maila
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.currentMiniGame">
+            <summary>
+            Lista nazw minigier
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.actionFieldBounds">
+            <summary>
+            Obecnie aktywna minigra
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.infectedFileIndex">
+            <summary>
+            Prostokąty reprezentujące pliki
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.quarantineZone">
+            <summary>
+            Indeks pliku zainfekowanego
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.infectedWebsiteIndex">
+            <summary>
+            Indeks aktualnie przeciąganego pliku
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.safeWebsites">
+            <summary>
+            Lista stron zainfekowanych
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.allWebsites">
+            <summary>
+            Lista stron niezainfekowanych
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.isFeedbackActive">
+            <summary>
+            Lista wszystkich stron (do rysowania)
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.isAnswerCorrect">
+            <summary>
+            Czy trwa wyświetlanie komunikatu
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.infectedFiles">
+            <summary>
+            Czy odpowiedź była poprawna
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.safeFiles">
+            <summary>
+            Lista plików zainfekowanych
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.allFiles">
+            <summary>
+            Lista plików niezainfekowanych
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.portraits">
+            <summary>
+            Lista wszystkich plików (do rysowania)
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.safeEmails">
+            <summary>
+            Lista zainfekowanych e-maili
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.currentStage">
+            <summary>
+            Lista poprawnych e-maili
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.currentLevel">
+            <summary>
+            Bieżący etap (1-3)
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.badges">
+            <summary>
+            Bieżący poziom w etapie (1-3)
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.stageMiniGames">
+            <summary>
+            Odznaki za etapy                                                  
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.gameOverBackground">
+            <summary>
+            Tło dla ekranu zwycięstwa
+            </summary>
+        </member>
+        <member name="F:beMyCyberHero.Game1.taskTimeLimit">
+            Tło dla ekranu przegranej
+        </member>
+        <member name="F:beMyCyberHero.Game1.remainingTime">
+            Limit czasu na zadanie (w sekundach)
+        </member>
+        <member name="F:beMyCyberHero.Game1.isMenuExpanded">
+            Pozostały czas na zadanie
+        </member>
+        <member name="F:beMyCyberHero.Game1.hasFinalChance">
+            Czy menu jest rozwinięte
+        </member>
+        <member name="M:beMyCyberHero.Game1.#ctor">
+            Flaga do zarządzania dodatkową szansą
+            <summary>
+            Konstruktor inicjalizujący podstawowe ustawienia gry.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.SetDifficultyLevel(System.String)">
+            <summary>
+            Ustawia poziom trudności gry, żyć i limit czasu.
+            </summary>
+            <param name="level"></param>
+        </member>
+        <member name="M:beMyCyberHero.Game1.LoadContent">
+            <summary>
+            Wczytuje wszystkie zasoby, takie jak tekstury, czcionki i dane.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.SetupStageMiniGames">
+            <summary>
+            Przygotowuje listę minigier dla danego etapu.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.Update(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            Aktualizuje logikę gry, stan wejścia i minigier.
+            </summary>
+            <param name="gameTime"></param>
+        </member>
+        <member name="M:beMyCyberHero.Game1.Draw(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            Rysuje aktualny stan gry na ekranie.
+            </summary>
+            <param name="gameTime"></param>
+        </member>
+        <member name="M:beMyCyberHero.Game1.HandleTextInput">
+            <summary>
+            Obsługuje wprowadzanie tekstu w polu tekstowym.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.HandleMainMenuInput">
+            <summary>
+            Obsługuje kliknięcia myszą w menu głównym.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.SelectRandomPortrait">
+            <summary>
+            Losuje nowy portret dla bieżącego poziomu
+            </summary>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:beMyCyberHero.Game1.UpdateMapTexture">
+            <summary>
+            Metoda pomocnicza do aktualizacji mapy zależnie od etapu i poziomu
+            </summary>
+            <exception cref="T:System.IndexOutOfRangeException"></exception>
+        </member>
+        <member name="M:beMyCyberHero.Game1.ZadanieZakonczone">
+            <summary>
+            Metoda pomocnicza do weryfikacji ukończenia zadania
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:beMyCyberHero.Game1.DrawMainMenu">
+            <summary>
+            Rysuje ekran głównego menu.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.DrawMenuBar">
+            <summary>
+            Rysuje pasek menu z informacjami o stanie gry.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.DrawExpandedMenu">
+            <summary>
+            Rysuje rozwinięte menu podczas gry.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.DrawTaskDescription">
+            <summary>
+            Rysuje opis aktualnego zadania.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.DrawGameInterface">
+            <summary>
+            Rysuje główny interfejs gry, w tym mapę i opis zadania.
+            </summary>
+        </member>
+        <member name="T:beMyCyberHero.Game1.Task">
+            <summary>
+            Klasa reprezentująca zadanie z tytułem i opisem, używana w minigrach.
+            </summary>
+        </member>
+        <member name="P:beMyCyberHero.Game1.Task.Description">
+            
+        </member>
+        <member name="M:beMyCyberHero.Game1.SelectRandomMiniGame">
+            <summary>
+            Losuje nową minigrę dla bieżącego etapu.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.DrawPasswordGame">
+            <summary>
+            Rysuje interfejs minigry tworzenia hasła.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.ValidatePassword">
+            <summary>
+            Metoda pomocnicza do minigry z tworzeniem hasła
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.SetupEmailTask">
+            <summary>
+            Inicjalizuje dane dla minigry "Znajdź fałszywy e-mail".
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.DrawEmailTask">
+            <summary>
+            Rysuje interfejs minigry znajdowania fałszywego e-maila.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.SetupDragTask">
+            <summary>
+            Przygotowuje dane i pliki dla minigry "Przeciągnij plik do kwarantanny".
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.DrawDragTask">
+            <summary>
+            Rysuje interfejs minigry przeciągania plików.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.SetupWebsiteTask">
+            <summary>
+            Inicjalizuje dane dla minigry "Znajdź zainfekowaną stronę".
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.DrawWebsiteTask">
+            <summary>
+            Rysuje interfejs minigry znajdowania zainfekowanej strony.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.AdvanceLevelOrStage(System.Boolean)">
+            <summary>
+            Obsługuje postęp gracza na kolejne poziomy lub etapy.
+            </summary>
+            <param name="isAnswerCorrect"></param>
+        </member>
+        <member name="M:beMyCyberHero.Game1.ResetGameProgress">
+            <summary>
+            Resetuje postęp gry i wszystkie kluczowe zmienne.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.DrawVictoryScreen">
+            <summary>
+            Rysuje ekran zwycięstwa.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.DrawGameOverScreen">
+            <summary>
+            Rysuje ekran przegranej.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.DrawEndScreenButtons">
+            <summary>
+            Rysuje przyciski na ekranie końcowym gry.
+            </summary>
+        </member>
+        <member name="M:beMyCyberHero.Game1.WrapText(Microsoft.Xna.Framework.Graphics.SpriteFont,System.String,System.Single)">
+            <summary>
+            Dopasowuje tekst do maksymalnej szerokości, dzieląc go na linie.
+            </summary>
+            <param name="font"></param>
+            <param name="text"></param>
+            <param name="maxLineWidth"></param>
+            <returns></returns>
+        </member>
+        <member name="M:beMyCyberHero.Game1.CreateTexture(Microsoft.Xna.Framework.Color)">
+            <summary>
+            Tworzy teksturę o podanym kolorze.
+            </summary>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:beMyCyberHero.Game1.FilterInputKey(Microsoft.Xna.Framework.Input.Keys,System.Boolean)">
+            <summary>
+            Metoda dodatkowa do obsługi wpisywania
+            </summary>
+            <param name="key"></param>
+            <param name="shiftPressed"></param>
+            <returns></returns>
+        </member>
+        <member name="M:beMyCyberHero.Game1.ResetTextInput">
+            <summary>
+            Metoda dodatkowa do obsługi wpisywania
+            </summary>
+        </member>
+    </members>
+</doc>

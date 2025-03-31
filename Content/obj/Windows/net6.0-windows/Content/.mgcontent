@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/gameover_background.jpg</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/icon_hearth.png</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/icon_star.png</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/main_menu_background.jpg</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/map_image_1.png</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/map_image_2.png</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/map_image_3.png</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/map_image_4.png</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/map_image_5.png</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/map_image_6.png</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/map_image_7.png</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/map_image_8.png</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/map_image_9.png</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/portrait_image_elephant.png</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/portrait_image_snake.png</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/portrait_image_wolf.png</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/portrait_image_woman.png</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/Backgrounds/victory_background.jpg</File>
+    <File>C:/Users/jakub/Desktop/beMyCyberhero/beMyCyberHero/Content/DefaultFont.spritefont</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
